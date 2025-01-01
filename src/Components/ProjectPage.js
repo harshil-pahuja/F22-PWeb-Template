@@ -7,6 +7,7 @@ import Project1 from "../images/Plant.png"
 import Project4 from "../images/poli.png"
 import Project3 from "../images/MusicAccessor.png"
 import Project6 from "../images/RecipeApp.png"
+import Project5 from "../images/HeartWise.png"
 
 //Components
 import Header from './Header';
@@ -73,7 +74,17 @@ const ProjectPage = () => {
                     </p>
                 </div>
 
-                
+                <div class="project">
+                    <img src={Project5}/>
+                    <h3>HeartWise</h3>
+                    <p>Congestive heart failure (CHF) is one of the leading causes of death in the United States, and affects individuals of many age groups. Given that present treatments have not 
+                        been sufficient to reduce CHF rates, we have built a user-centered solution to educate users about CHF, and provide personalized support.
+                    </p>
+                    <p>
+                      I collaborated with 3 students to build a full-stack application to predict congestive heart failure rates in a 10-year period. My specific contributions include programming the
+                            display of a 3-dimensional animated heart model, and a list of health recommendations using React.js. 
+                    </p>
+                </div>
                 <div class="project">
                     <img src={Project6}/>
                     <h3>PixelPalate</h3>
